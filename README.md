@@ -20,7 +20,11 @@ Una startup desarrolla una app de citas médicas. Entrega cada 2 semanas, tiene 
 | 6. Socialización | 15 | Sustentación de 3 minutos del plan de cumplimiento | Exposición |
 
 ## Entrega
-Un enlace al repositorio con el último commit y la ejecución del workflow en verde (pestaña **Actions**).
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c1292630-f620-49c5-bb09-18692abfe35c" />
+COMMITS
+<img width="1324" height="767" alt="image" src="https://github.com/user-attachments/assets/c9f0bde5-ef74-45ae-9d5c-f21290a4b494" />
+PULL REQUEST
+
 ## ENLACE DEL TRELLO 
 https://trello.com/invite/b/6aba8d4ba35d8a22572837e3/ATTI371a3190a7532a3fbbf8f089f7cc68ea65B115EB/🏥-taller-de-calidad-app-de-citas-medicas
 
