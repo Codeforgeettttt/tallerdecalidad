@@ -1,0 +1,12 @@
+# Taller de calidad: app de citas médicas
+
+![CI](https://github.com/Codeforgeettttt/tallerdecalidad/actions/workflows/ci.yml/badge.svg)
+
+Taller de auditoría de calidad de un equipo ágil (ISO/IEC 25010, Scrum, Kanban, XP, DevOps y métricas DORA).
+
+## Cómo correr las pruebas
+    pip install -r requirements.txt
+    pytest --cov=src --cov-fail-under=80
+
+## Documentación
+Está en la carpeta `docs/`: atributos ISO 25010, Definition of Done, políticas Kanban, reglas de codificación y métricas.
