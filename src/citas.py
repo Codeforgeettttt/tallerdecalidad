@@ -1,16 +1,17 @@
 """Módulo de citas médicas (código base del taller)."""
 
+PORCENTAJES = {"contributivo": 0.10, "subsidiado": 0.0, "particular": 1.0}
+
 
 def calcular_copago(valor_consulta: float, tipo_afiliado: str) -> float:
     """Calcula el copago que paga el paciente.
 
-    Especificación:
-    - "contributivo": paga el 10 % del valor de la consulta.
-    - "subsidiado": paga 0.
-    - "particular": paga el 100 %.
-    - Si valor_consulta es negativo, lanza ValueError.
-    - Si tipo_afiliado no es uno de los tres anteriores, lanza ValueError.
+    - "contributivo": 10 %. "subsidiado": 0. "particular": 100 %.
+    - Valor negativo o tipo desconocido lanzan ValueError.
     - El resultado se redondea a 2 decimales.
     """
-    # TODO (XP/TDD): escriba primero las pruebas en tests/test_citas.py y luego implemente.
-    raise NotImplementedError
+    if valor_consulta < 0:
+        raise ValueError("El valor de la consulta no puede ser negativo")
+    if tipo_afiliado not in PORCENTAJES:
+        raise ValueError(f"Tipo de afiliado inválido: {tipo_afiliado}")
+    return round(valor_consulta * PORCENTAJES[tipo_afiliado], 2)
