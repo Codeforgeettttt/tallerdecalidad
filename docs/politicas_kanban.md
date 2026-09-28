@@ -1,6 +1,6 @@
 # Tablero Kanban: políticas por columna
 
-Enlace o captura del tablero: PEGAR_AQUI_EL_ENLACE_O_LA_CAPTURA
+<img width="1600" height="750" alt="image" src="https://github.com/user-attachments/assets/ff523e2b-0ae7-4fd9-b7ef-93932dec4972" />
 
 ## Columnas, límites WIP y políticas
 
