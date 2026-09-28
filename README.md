@@ -21,6 +21,8 @@ Una startup desarrolla una app de citas médicas. Entrega cada 2 semanas, tiene 
 
 ## Entrega
 Un enlace al repositorio con el último commit y la ejecución del workflow en verde (pestaña **Actions**).
+## ENLACE DEL TRELLO 
+https://trello.com/invite/b/6aba8d4ba35d8a22572837e3/ATTI371a3190a7532a3fbbf8f089f7cc68ea65B115EB/🏥-taller-de-calidad-app-de-citas-medicas
 
 ## Pistas para el bloque 3 (TDD)
 1. Lea la especificación en `src/citas.py`.
